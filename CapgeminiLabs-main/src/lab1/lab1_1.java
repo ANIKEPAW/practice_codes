@@ -6,15 +6,15 @@ public class lab1_1 {
 		System.out.println("Enter a number");
 		Scanner sc = new Scanner(System.in);   
 		int number= sc.nextInt();
-		int sum=0;
+		int number1=0;
 
 		while(number!=0)
 		{
 			int digit= number%10;
-			sum=sum+digit*digit*digit;
+			number1=number1+digit*digit*digit;
 			number=number/10;
 		}
-		System.out.println("The sum of cubes of digits of the given number is " +sum);
+		System.out.println("The sum of cubes of digits of the given number is " +number1);
 
 
 	}
